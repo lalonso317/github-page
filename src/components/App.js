@@ -4,14 +4,16 @@ import { Provider } from "react-redux"
 import "../styles/git.css"
 
 import store from "../store"
-import Main from './Main'
-import Secondary from './Secondary'
+import Main from './Aside'
+import Secondary from './Body'
+import Third from './Header'
 
 function App() {
   return (
     <Provider store={store}>
       <Router>
-        <div>
+        <div id="app">
+        <Third />
         <Main />
         <Secondary />
         </div>
