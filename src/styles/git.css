@@ -1,0 +1,97 @@
+body{
+    margin:auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background: rgb(37,41,45);
+}
+.leftside{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 85px;
+   
+}
+.rightside{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    color: white;
+}
+.gitlogo{
+    margin: 20px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.nav{
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.nav:hover, .gitlogo:hover{
+    color: grey;
+}
+.search{
+    background: rgb(61,64,67);
+    height: 40px;
+    width: 375px;
+    margin: 0 10px 0 10px;
+    padding: 8px;
+    border: none;
+    color: rgb(98, 114, 122);
+    outline: none;
+    font-size: 20px;
+    transition: all .5s;
+    border-radius: 5px;
+}
+.search:focus{
+    background: white;
+    color: black;
+    width: 625px;
+}
+
+.navimg{
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.bell,.plus{
+    font-size: 20px;
+    padding: 10px;
+}
+.caret{
+    padding: 0 15px 0 0;
+}
+/* Aside */
+.logo{
+    width: 350px;
+    height: 350px;
+    border-radius: 4px;
+  
+}
+.aside{
+    margin: 30px 0px 0px 60px;
+}
+/* Main */
+.repoflex{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+}
+.repos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.reponame{
+    font-size: 25px;
+    padding: 15px 0 10px 0;
+    color: blue;
+}
